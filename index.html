@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Wake App</title>
+<title>Wake app</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 body {font-family: "Oxygen";}
-h2 {
-  letter-spacing: 3px;
-}
-@media screen and (max-width: 800px) {
-    .w3-hide-small {
-    display: block !important;
+
+h2 {letter-spacing: 3px;}
+    
+    @media screen and (max-width: 600px) {
+      .w3-content {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .w3-display-container {
+        text-align: center;
+      }
+      .w3-display-bottomleft {
+        position: relative;
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+      }
+      .w3-image {
+        margin: auto;
+        display: block;
+      }
+      .w3-padding-64 {
+        padding-top: 64px;
+        padding-bottom: 64px;
+      }
+      .w3-row-padding img {
+        margin-bottom: 12px;
+      }
     }
-} 
 
 </style>
 </head>
@@ -100,8 +122,6 @@ h2 {
     </div>
   </div>
 
-  
-<!-- End page content -->
 </div>
 </body>
 </html>
